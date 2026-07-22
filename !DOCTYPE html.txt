@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Update Defender</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛡️ Update Defender</h1>
+
+<p>
+Collect the Update icons (💻) and avoid the Viruses (🦠).
+Reach 15 points before the timer ends!
+</p>
+
+<div id="info">
+Score: <span id="score">0</span>
+|
+Time: <span id="time">30</span>
+</div>
+
+<div id="game">
+<div id="player">🖥️</div>
+</div>
+
+<h2 id="message"></h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
